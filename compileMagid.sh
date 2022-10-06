@@ -26,7 +26,7 @@ make
 sudo make install
 
 #compiling magid
-wget https://github.com/ruckard/magi/archive/refs/tags/v1.4.7.2.tar.gz
+wget https://github.com/magi-dev/magi/archive/refs/tags/v1.4.7.2.tar.gz
 tar -zxvf v1.4.7.2.tar.gz
 rm v1.4.7.2.tar.gz
 cd magi-1.4.7.2/src/leveldb
