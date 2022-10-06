@@ -3,9 +3,7 @@ Contains useful files if working with xmg
 
 Installing
 -----
-How to compile magid on your device:
-Download compileMagid.sh and execute it. 
-
+How to compile magid on your device: Download compileMagid.sh and execute it. 
 wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/compileMagid.sh && sh compileMagid.sh
 
 Info
