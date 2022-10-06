@@ -11,6 +11,13 @@ wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/compile
 The installation process will take some time. 
 Don't be confused if there are purple warnings popping up, you can ignore them. 
 
+magi.conf
+-----
+1) Download magi.conf
+2) Move it to the .magi folder
+- wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/magi.conf
+- mv magi.conf .magi
+
 Info
 -----
 - Official magi repository: https://github.com/m-pays/magi/
