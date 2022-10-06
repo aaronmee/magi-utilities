@@ -8,6 +8,9 @@ How to compile magid on your device:
 
 wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/compileMagid.sh && sh compileMagid.sh
 
+The installation process will take some time. 
+Don't be confused if there are purple warnings popping up, you can ignore them. 
+
 Info
 -----
 - Official magi repository: https://github.com/m-pays/magi/
