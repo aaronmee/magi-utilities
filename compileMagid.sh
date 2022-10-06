@@ -43,6 +43,6 @@ sudo install -m 755 magid /usr/bin/magid
 cd ..
 cd ..
 rm -rf magi-1.4.7.2
-echo script terminated, to start the wallet in background mode type magid
-echo to read the help type magid --help
-echo don't forget to create the magi.conf file first!
+echo "script terminated, to start the wallet type magid"
+echo "to read the help type magid --help"
+echo "don't forget to create the magi.conf file first! Else it won't work."
