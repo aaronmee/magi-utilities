@@ -6,7 +6,7 @@
 
 #the required depencies + wget
 sudo apt-get update -y && sudo apt upgrade -y
-sudp apt-get install wget -y
+sudo apt-get install wget -y
 sudo apt-get install build-essential -y
 sudo apt-get install libssl-dev -y
 sudo apt-get install libgmp-dev -y
