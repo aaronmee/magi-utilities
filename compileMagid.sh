@@ -37,12 +37,13 @@ cd ..
 make -f makefile.unix xCPUARCH=aarch64 CXXFLAGS='-I /opt/local/db-4.8.30.NC/include -L /opt/local/db-4.8.30.NC/lib'
 #replace "aarch64" with your architecture, e.g. armv7l for arm!
 
-#deleting the build directory and installing magid in the system
+#deleting the build directories and installing magid in the system
 cd magi-1.4.7.2/src
 sudo install -m 755 magid /usr/bin/magid
 cd ..
 cd ..
 rm -rf magi-1.4.7.2
+rm -rf db-4.8.30.NC
 echo "script terminated, to start the wallet type magid"
 echo "to read the help type magid --help"
 echo "don't forget to create the magi.conf file first! Else it won't work."
