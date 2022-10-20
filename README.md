@@ -9,7 +9,8 @@ How to compile magid on your device:
 wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/compileMagid.sh && sh compileMagid.sh
 
 The installation process will take some time. 
-Don't be confused if there are purple warnings popping up, you can ignore them. 
+If you notice any purple errors that is due to outdated technology not needed to mine magi or to use the wallet. 
+
 
 magi.conf
 -----
