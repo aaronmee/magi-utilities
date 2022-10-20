@@ -5,7 +5,7 @@
 #The architecture can be changed to your architecture (use lscpu to find out).
 
 #the required depencies + wget
-sudo apt-get update -y && sudo apt upgrade -y
+sudo apt-get update && sudo apt upgrade -y
 sudo apt-get install wget -y
 sudo apt-get install build-essential -y
 sudo apt-get install libssl-dev -y
@@ -22,6 +22,7 @@ tar -xzvf db-4.8.30.NC.tar.gz
 rm db-4.8.30.NC.tar.gz
 cd db-4.8.30.NC/build_unix
 ../dist/configure --disable-shared --enable-cxx --disable-replication --with-pic --prefix=/opt/local/db-4.8.30.NC --build=aarch64-unknown-linux-gnu
+#consider changing "--build=" if needed. 
 make
 sudo make install
 
@@ -38,7 +39,6 @@ make -f makefile.unix xCPUARCH=aarch64 CXXFLAGS='-I /opt/local/db-4.8.30.NC/incl
 #replace "aarch64" with your architecture, e.g. armv7l for arm!
 
 #deleting the build directories and installing magid in the system
-cd magi-1.4.7.2/src
 sudo install -m 755 magid /usr/bin/magid
 cd ..
 cd ..
