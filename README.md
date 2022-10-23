@@ -7,12 +7,12 @@ The goal of this repo is to provie useful files and guides for the usage of coin
 There are different types of files for the installation of the magi core wallet:
 
   * All-in-one bash files. Those files download everything needed and install the magi wallet. Recommended for new users. 
+    They can be found under install_magid
     - As of now there are only files for the magi daemon.  
     - Those are split between the different architectures. Choose the one according to your device. 
   
   * Bash files that complete different subgoals. Recommended if you alredy worked with xmg but don't know certain steps. 
 
-Infos on how to install can be found under install_magid/README.md
 
 magi.conf
 -----
