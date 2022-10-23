@@ -40,3 +40,4 @@ cd ..
 rm -rf magi-1.4.7.2
 rm -rf db-4.8.30.NC
 echo "The script successfully terminated and installed the magi daemon in the system"
+echo "You now may delete the script with 'rm magid_aarch64.sh'"
