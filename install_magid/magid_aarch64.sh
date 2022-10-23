@@ -2,9 +2,9 @@
 #This script installs magid for aarch64 on your device.
 #It should be started from the home directory.
 
-#the required depencies + wget
+#the required depencies + wget, curl
 sudo apt-get update && sudo apt upgrade -y
-sudo apt-get install wget -y
+sudo apt-get install wget curl -y
 sudo apt-get install build-essential -y
 sudo apt-get install libssl-dev -y
 sudo apt-get install libgmp-dev -y
@@ -18,8 +18,11 @@ wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
 echo '12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz' | sha256sum -c
 tar -xzvf db-4.8.30.NC.tar.gz
 rm db-4.8.30.NC.tar.gz
-cd db-4.8.30.NC/build_unix
-../dist/configure --disable-shared --enable-cxx --disable-replication --with-pic --prefix=/opt/local/db-4.8.30.NC --build=aarch64-linux-gnu
+cd db-4.8.30.NC/dist
+sudo curl -o config.guess http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD
+sudo curl -o config.sub http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD
+cd ../build_unix
+../dist/configure --disable-shared --enable-cxx --disable-replication --with-pic --prefix=/opt/local/db-4.8.30.NC
 make
 sudo make install
 
