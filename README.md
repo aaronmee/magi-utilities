@@ -22,10 +22,10 @@ magi.conf
 - wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/magi.conf
 - mv magi.conf .magi
 
-Info
------
+# Info
+
 - Official magi repository: https://github.com/m-pays/magi/
+- A more up to date community repository: https://github.com/magi-dev/magi/
 - Website: https://m-core.org
 - Website: https://coinmagi.org
-- A more up to date community repository: https://github.com/magi-dev/magi/
 - Discord server: https://discord.gg/W8S28vjcRX
