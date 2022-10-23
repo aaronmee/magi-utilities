@@ -1,19 +1,19 @@
-To install On i386, amd64
+To build On i386, amd64
 -----
     wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/FILE
     sh FILE
 
-To install On aarch64
+To build On aarch64
 -----
     wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/install_magid/magid_aarch64.sh
     sh magid_aarch64.sh
 
-To install On armv7l
+To build On armv7l
 -----
     wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/FILE
     sh FILE
 
-To install On armv6l
+To build On armv6l
 -----
     wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/FILE
     sh FILE
