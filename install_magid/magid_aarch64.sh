@@ -14,8 +14,7 @@ sudo apt-get install libprotobuf-dev -y
 sudo apt-get install libqrencode-dev -y
 
 #berkeley-db is required to compile magid, this installs it from the source since it's not available through apt
-wget http://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
-echo '12edc0df75bf9abd7f82f821795bcee50f42cb2e5f76a6a281b85732798364ef  db-4.8.30.NC.tar.gz' | sha256sum -c
+wget https://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
 tar -xzvf db-4.8.30.NC.tar.gz
 rm db-4.8.30.NC.tar.gz
 cd db-4.8.30.NC/dist
