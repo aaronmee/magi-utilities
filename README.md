@@ -14,13 +14,10 @@ There are different types of files for the installation of the magi core wallet:
   
   * Bash files that complete different subgoals. Recommended if you alredy worked with xmg but don't know certain steps. 
 
-
 magi.conf
 -----
-1) Download magi.conf
-2) Move it to the .magi folder
-- wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/magi.conf
-- mv magi.conf .magi
+    wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/magi.conf
+    mv magi.conf .magi
 
 # Info
 
