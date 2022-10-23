@@ -1,4 +1,6 @@
 # magi-utilities
+Copyright (c) 2022 aaronmidnight
+
 The goal of this repo is to provie useful files and guides for the usage of coin magi. 
 
 # Installation
