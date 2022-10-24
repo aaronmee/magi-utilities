@@ -8,5 +8,5 @@ Berkeley DB
   
     Berkeley DB is used for blockchain and wallet storage. 
 
-     wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/src/db-4.8.sh
-     sh db-4.8.sh
+        wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/src/db-4.8.sh
+        sh db-4.8.sh
