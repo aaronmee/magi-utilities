@@ -10,3 +10,5 @@ Berkeley DB
 
         wget https://raw.githubusercontent.com/aaronmidnight/magi-utilities/main/src/db-4.8.sh
         sh db-4.8.sh
+    
+    The script replaces the original 'config.guess' and 'config.sub' files with up-to-date ones because they are from 2009. 
