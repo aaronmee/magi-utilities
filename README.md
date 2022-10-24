@@ -1,7 +1,7 @@
 # magi-utilities
 Copyright (c) 2022 aaronmidnight
 
-The goal of this repo is to provie useful files and guides for the usage of coin magi. 
+The goal of this repo is to provide useful files and guides for the usage of coin magi. 
 
 # Installation
 There are different types of files for the installation of the magi core wallet:
