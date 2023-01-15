@@ -4,7 +4,7 @@ I'm trying to setup a git repo where you can easy find useful files and guides a
 I'm also trying to find my time to work on it. 
 
 
-# magi-help
+# magi-utilities
 Copyright (c) 2022 aaronmidnight
 
 The goal of this repo is to provide useful files and guides for the usage of coin magi. 
