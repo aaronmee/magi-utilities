@@ -1,3 +1,9 @@
+# under construction
+
+I'm trying to setup a git repo where you can easy find useful files and guides about XMG or magi. 
+I'm also trying to find my time to work on it. 
+
+
 # magi-utilities
 Copyright (c) 2022 aaronmidnight
 
