@@ -4,7 +4,7 @@
 
 #the required depencies + wget, curl
 sudo apt-get update && sudo apt upgrade -y
-sudo apt-get install wget curl -y
+sudo apt-get install wget -y
 sudo apt-get install build-essential -y
 sudo apt-get install libssl-dev -y
 sudo apt-get install libgmp-dev -y
@@ -18,8 +18,8 @@ wget https://download.oracle.com/berkeley-db/db-4.8.30.NC.tar.gz
 tar -xzvf db-4.8.30.NC.tar.gz
 rm db-4.8.30.NC.tar.gz
 cd db-4.8.30.NC/dist
-sudo curl -o config.guess http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD
-sudo curl -o config.sub http://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD
+sudo wget -O config.guess 'https://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.guess;hb=HEAD'
+sudo wget -O config.sub 'https://git.savannah.gnu.org/gitweb/?p=config.git;a=blob_plain;f=config.sub;hb=HEAD'
 cd ../build_unix
 ../dist/configure --disable-shared --enable-cxx --disable-replication --with-pic --prefix=/opt/local/db-4.8.30.NC
 make
